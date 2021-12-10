@@ -1,7 +1,7 @@
 import React from "react";
 const Main = () => {
   return (
-    <main className="flex flex-col h-screen w-full bg-gray-100 overflow-x-hidden overflow-y-auto font-sans text-gray-900 bg-gray-100">
+    <main className="flex flex-col w-full bg-gray-100 md:overflow-x-hidden md:overflow-y-auto font-sans text-gray-900 bg-gray-100">
       <div className="flex px-6 py-6">
         <div className="flex flex-col w-full h-full ">
           <div className="flex flex-col w-full max-w-6xl items-start justify-center mx-auto my-5">
@@ -91,7 +91,7 @@ const Main = () => {
               <span className="font-medium">Position:</span> Data Analyst
             </p>
             <p>
-              <span className="font-medium">Company:</span> Qreatoriq
+              <span className="font-medium">Company:</span> CreatorIQ
             </p>
             <p>
               <span className="font-medium">Duties:</span> Searched for

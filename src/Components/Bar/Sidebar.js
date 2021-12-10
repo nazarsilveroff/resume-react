@@ -1,12 +1,12 @@
 import React from "react";
 const Sidebar = () => {
   return (
-    <nav className="flex w-100  bg-gray-800">
+    <nav className="flex w-100 h-full overflow-x-hidden overflow-y-auto bg-gray-800">
       <div className="w-full flex flex-col  h-screen text-gray-100">
         <img
           className="rounded-full mx-auto mb-1"
           src="https://avatars.githubusercontent.com/u/45458680?v=4"
-          alt="Randy Robertson"
+          alt="Nazar Petulko"
         />
         <div className=" pl-10 py-2">
           <div className="flex flex-col mb-3">
@@ -15,7 +15,7 @@ const Sidebar = () => {
             </h3>
             <div>
               <a
-                className="  contacts-link phone flex  hover:text-red-500"
+                className="contacts-link phone flex  hover:text-red-500"
                 href="tel:+38 096 621 0685"
               >
                 <svg
@@ -55,7 +55,7 @@ const Sidebar = () => {
 
           <div className="tech-skills-container mb-2">
             <h3 className="title text-2xl font-bold">Tech Skills</h3>
-            <ul className="flex flex-col text-sm list-disc pl-5">
+            <ul className="flex flex-col text-xs list-disc pl-5">
               <li>
                 <span className="skills-text">HTML5</span>
               </li>
@@ -75,14 +75,23 @@ const Sidebar = () => {
                 <span className="skills-text">React.js</span>
               </li>
               <li>
-                <span className="skills-text">Node.js</span>
+                <span className="skills-text">React router</span>
+              </li>
+              <li>
+                <span className="skills-text">Redux persist</span>
+              </li>
+              <li>
+                <span className="skills-text">REST API</span>
+              </li>
+              <li>
+                <span className="skills-text">NPM</span>
               </li>
             </ul>
           </div>
 
           <div className="soft-skills-container mb-2">
             <h3 className="title text-2xl font-bold">Soft Skills</h3>
-            <ul className="flex flex-col text-sm list-disc pl-5">
+            <ul className="flex flex-col text-xs list-disc pl-5">
               <li>
                 <span className="skills-text">Scrum</span>
               </li>
